@@ -1,0 +1,67 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Strand Auto Workshop</title>
+	<link rel="stylesheet" href="C:\Users\Zdyantyi\Desktop\WEB DESIGN\style.css">
+	<script src="collapse.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<img src="C:\Users\Zdyantyi\Desktop\WEB DESIGN\logo.png" class="logo">
+			<nav>
+				<ul>
+					<li><a href="file:///C:/Users/Zdyantyi/Desktop/WEB%20DESIGN/index.html">Home</a><li>
+					<li><a href="C:\Users\Zdyantyi\Desktop\WEB DESIGN\About Us.html">About Us</a><li>
+					<li><a href="file:///C:/Users/Zdyantyi/Desktop/WEB%20DESIGN/services.html">Services</a><li>
+					<li><a href="file:///C:/Users/Zdyantyi/Desktop/WEB%20DESIGN/contact.html">Contacts</a><li>
+				</ul>
+			</nav>
+		</div>
+		<div class="Intro1">
+			<div class="introduction1">
+				<h1>SERVICING</h1>
+				<p>At Strand Auto Workshop we offer variety of services.If you are searching for a trusted and professional vehicle service centre near you, rely on the best in the business for assistance. Strand Auto Workshop has built an outstanding reputation amongst our clients as a top choice when it comes to bakkie/vehicle service centres in South Africa. 
+				Strand Auto Workshop has been in the Automotive industry for many years, during which we have gained extensive experience in all vehicle related services – this includes servicing, maintenance, repairs, and of course our speciality – performance enhancement. 
+				With Strand Auto Workshop branches in many cities in South Africa, there is no reason why you too can’t take your vehicle to Strand Auto Workshop for a service.
+				<br><br>Strand Auto Workshop (SAW) is a leader in the field of automotive servicing, repair and maintenance of nearly all diesel bakkies and petrol vehicles. With more than 35 years of automotive maintenance experience; 
+				backed by the Automobile Association Quality Assurance (AAQA), the Retail Motor Industry (RMI) and our own unique SAC “Why Worry Warranty”, we should surely be your first choice when it comes to small, medium and large commercial vehicle fleet maintenance. Not only do we take care of service, repair 
+				and maintenance issues, we hold in high regard the importance of preventative maintenance y have a significant financial benefit for company.</p>
+			</div>
+		</div>
+		<button type="button" class="collapsible">MAJOR VEHICLE SERVICES</button>
+			<div class="content">
+				<p>These services include : Inspect vehicle for dents, scratches etc, Report on condition of pads & brake shoes, Check for grass in radiator, Check Clutch pedal travel & squeaking
+Check Brake pedal travel & squeaking, Report on condition of Timing Chain, Check mechanical advance on distributor, Check Boot operation etc.</p>
+			</div>
+		<button type="button" class="collapsible">INTERMEDIATE VEHICLE SERVICES</button>
+			<div class="content">
+				<p>These include : Inspect vehicle for scratches and other damages, Inspect brake and all warning lights on dash, Check brake & clutch pedal for squeaks & adjustment, Inspect accelerator pedal for full throttle opening, Check all tyre pressure (Spare wheel included)
+				Check diff level & side shaft oil leaks, Inspect fan belts, Check cooling system levels and leaks etc.</p>
+			</div>
+		<button type="button" class="collapsible">MINOR VEHICLE SERVICES</button>
+			<div class="content">
+				<p>These include : Check windscreen washer Ievel, Check all lights operation, Check brake fluid level + colour, Check power steering fluid level and Check all lights operation.</p>
+			</div>	
+		<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.display === "block") {
+				content.style.display = "none";
+			} else {
+			content.style.display = "block";
+			}
+				});
+		}
+		</script>
+		<footer>
+			<p><br><br><br><br><br><br><br>This website is maintain internal @ SAW <br> Author : Zukisa Dyantyi <br>  Copyright @ Strand Auto Workshop. All Rights Reserved</p>
+		</footer>
+	</div>
+</body>
+</html>
